@@ -1,0 +1,47 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# === Virtual Environment ===
+.venv/
+venv/
+env/
+ENV/
+
+# === TensorFlow / Keras Model Files ===
+*.h5
+*.keras
+*.ckpt
+checkpoint/
+saved_model/
+
+# === Large Data Folders ===
+data_raw/
+data_raw_small/
+data/
+datasets/
+logs/
+outputs/
+tmp/
+cache/
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+
+# === Optional: Ignore intermediate results ===
+# (Keep only final plots for your repo)
+training_history/
+model_history/

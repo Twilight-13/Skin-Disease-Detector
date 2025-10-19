@@ -1,0 +1,16 @@
+Classification Report
+================================================================================
+
+                                                          precision    recall  f1-score   support
+
+                         Benign epidermal proliferations     0.6164    0.6716    0.6429       134
+                       Benign melanocytic proliferations     0.9649    0.7477    0.8426       773
+   Benign soft tissue proliferations - Fibro-histiocytic     0.4242    0.8750    0.5714        16
+                  Indeterminate epidermal proliferations     0.2800    0.4667    0.3500        15
+Malignant adnexal epithelial proliferations - Follicular     0.6180    0.8871    0.7285        62
+                      Malignant epidermal proliferations     0.2609    0.2609    0.2609        23
+         Malignant melanocytic proliferations (Melanoma)     0.3933    0.7176    0.5081       131
+
+                                                accuracy                         0.7314      1154
+                                               macro avg     0.5083    0.6609    0.5578      1154
+                                            weighted avg     0.8105    0.7314    0.7535      1154
